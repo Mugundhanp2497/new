@@ -1,0 +1,15 @@
+
+tasks.register("hello")  {
+    dependsOn monday
+   println 'tutorialspoint'
+
+println hello.name
+println project.hello.name
+
+}
+
+tasks.register("monday")
+{
+    println 'how r you'
+
+}
